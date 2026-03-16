@@ -1,0 +1,216 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Toko Hanif</title>
+
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: Arial, Helvetica, sans-serif;
+      }
+
+      body {
+        background: #f9f9f9;
+      }
+
+      /* Navbar */
+      header {
+        background: #222;
+        color: white;
+        padding: 15px 40px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+
+      header h1 {
+        color: #ffb703;
+      }
+
+      nav a {
+        color: white;
+        text-decoration: none;
+        margin-left: 20px;
+        font-size: 14px;
+      }
+
+      nav a:hover {
+        color: #ffb703;
+      }
+
+      /* Hero */
+      .hero {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 60px 40px;
+        background: #fff3e6;
+      }
+
+      .hero-text {
+        max-width: 500px;
+      }
+
+      .hero-text h2 {
+        font-size: 38px;
+        margin-bottom: 15px;
+        color: #333;
+      }
+
+      .hero-text p {
+        margin-bottom: 20px;
+        color: #555;
+      }
+
+      .btn {
+        background: #ffb703;
+        padding: 12px 25px;
+        border: none;
+        border-radius: 6px;
+        text-decoration: none;
+        color: black;
+        font-weight: bold;
+      }
+
+      .hero img {
+        width: 320px;
+      }
+
+      /* Produk */
+      .produk {
+        padding: 60px 40px;
+        text-align: center;
+      }
+
+      .produk h2 {
+        margin-bottom: 40px;
+        font-size: 28px;
+      }
+
+      .produk-container {
+        display: flex;
+        justify-content: center;
+        gap: 25px;
+        flex-wrap: wrap;
+      }
+
+      .card {
+        background: white;
+        padding: 20px;
+        border-radius: 10px;
+        width: 220px;
+        box-shadow: 0 3px 8px rgba(0, 0, 0, 0.1);
+        transition: 0.3s;
+      }
+
+      .card:hover {
+        transform: translateY(-5px);
+      }
+
+      .card img {
+        width: 100%;
+        border-radius: 8px;
+        margin-bottom: 10px;
+      }
+
+      .card h3 {
+        font-size: 18px;
+        margin-bottom: 5px;
+      }
+
+      .card p {
+        color: #e63946;
+        font-weight: bold;
+      }
+
+      /* Tentang */
+      .tentang {
+        padding: 60px 40px;
+        background: white;
+        text-align: center;
+      }
+
+      .tentang p {
+        max-width: 600px;
+        margin: auto;
+        color: #555;
+      }
+
+      /* Footer */
+      footer {
+        background: #222;
+        color: white;
+        text-align: center;
+        padding: 20px;
+        margin-top: 40px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <header>
+      <h1>Toko Hanif</h1>
+      <nav>
+        <a href="#">Home</a>
+        <a href="#">Produk</a>
+        <a href="#">Tentang</a>
+        <a href="#">Kontak</a>
+      </nav>
+    </header>
+
+    <section class="hero">
+      <div class="hero-text">
+        <h2>Selamat Datang di Toko Hanif</h2>
+        <p>
+          Toko Hanif menyediakan berbagai produk berkualitas dengan harga
+          terjangkau. Belanja mudah, cepat, dan terpercaya.
+        </p>
+        <a href="#" class="btn">Lihat Produk</a>
+      </div>
+
+      <img src="https://cdn-icons-png.flaticon.com/512/3144/3144456.png" />
+    </section>
+
+    <section class="produk">
+      <h2>Produk Populer</h2>
+
+      <div class="produk-container">
+        <div class="card">
+          <img src="https://cdn-icons-png.flaticon.com/512/892/892458.png" />
+          <h3>Tas Stylish</h3>
+          <p>Rp120.000</p>
+        </div>
+
+        <div class="card">
+          <img src="https://cdn-icons-png.flaticon.com/512/892/892497.png" />
+          <h3>Sepatu Casual</h3>
+          <p>Rp250.000</p>
+        </div>
+
+        <div class="card">
+          <img src="https://cdn-icons-png.flaticon.com/512/1040/1040230.png" />
+          <h3>Jam Tangan</h3>
+          <p>Rp180.000</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="tentang">
+      <h2>Tentang Toko Hanif</h2>
+      <p>
+        Toko Hanif adalah toko online sederhana yang menyediakan berbagai
+        kebutuhan fashion dan aksesoris dengan kualitas terbaik. Kami
+        berkomitmen memberikan pelayanan yang ramah serta produk yang
+        berkualitas bagi pelanggan.
+      </p>
+    </section>
+
+    <footer>
+      <p>© 2026 Toko Hanif | All Rights Reserved</p>
+    </footer>
+  </body>
+</html>
